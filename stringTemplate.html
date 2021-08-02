@@ -9,9 +9,14 @@
   <body>
     <script>
       const name = "Dave";
-      const score = 5 
-      const template = `name: ${name}, score: ${score > 6}  `;
+      const score = 5;
+      const template = `name: ${name}, score: ${score > 6} 
+multiline
+multiline
+multiline`;
+      document.writeln("<pre>");
       document.writeln(template);
-    </script>
+      document.writeln("</pre>");
+    </script> 
   </body>
 </html>
