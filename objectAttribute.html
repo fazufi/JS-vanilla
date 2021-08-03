@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const person = {};
+      person["age"] = 30;
+      person["addres"] = "Solo";
+      person["hobby"] = "playing football";
+
+      // console.table(person);
+
+      const people = [{}];
+
+      people[0].name = "joko";
+      console.log(people);
+
+      people[0]["name"] = "harry";
+      console.log(people);
+
+      people.map((item) => console.log(item["name"]));
+
+      const man = { "full name": "peter" };
+      console.log(man["full name"]);
+
+      
+    </script>
+  </body>
+</html>
